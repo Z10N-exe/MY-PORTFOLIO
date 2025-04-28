@@ -1,0 +1,200 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f0ec; /* Light brown/off-white */
+    color: #5c3d2e; /* Darker brown */
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5c3d2e;
+}
+
+#hero {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.highlight-section {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.service-item {
+    background-color: #e0d4c6; /* Light brown */
+    color: #5c3d2e;
+    padding: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.service-item:hover {
+    box-shadow: 0 0 15px rgba(209, 178, 148, 0.8); /* Glowing effect */
+}
+
+#projects {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.project-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+#skills {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.github-icon a {
+    /* Style your GitHub icon link */
+    margin-bottom: 10px;
+}
+
+.skill-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.skill-list li {
+    background-color: #d1b294; /* Medium brown */
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+#resume {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.download-button {
+    display: inline-block;
+    background-color: #5c3d2e;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.download-button:hover {
+    background-color: #4a3125; /* Darker brown on hover */
+}
+
+footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    color: #5c3d2e;
+    margin-top: 40px;
+}
+/* ... previous CSS ... */
+
+#projects {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.project-card {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden; /* To contain the image within the rounded corners */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.project-card a {
+    display: block; /* Make the entire card clickable */
+    text-decoration: none;
+    color: inherit; /* Inherit the body text color */
+    padding: 20px;
+}
+
+.project-card img {
+    width: 40%;
+    display: block; /* Prevent extra space below the image */
+    border-radius: 8px 8px 0 0; /* Round the top corners of the image */
+    margin-bottom: 10px;
+}
+
+.project-card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.project-card p {
+    font-size: 0.9em;
+    color: #777; /* A slightly lighter brown for the description */
+    margin-bottom: 0;
+}
+
+/* ... rest of your CSS ... */
+/* Responsive adjustments can be added here using media queries */
